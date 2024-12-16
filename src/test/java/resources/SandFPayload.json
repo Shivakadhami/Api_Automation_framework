@@ -1,0 +1,237 @@
+{
+  "inspectionType": "PRE_PURCHASE",
+  "data": {
+    "action": "sfCheckpointDetails",
+    "sfCheckpointDetails": {
+      "360degreecamera": {
+        "values": [
+          "No"
+        ],
+        "images": [
+          {
+            "loading": false,
+            "label": "0d8744d7-f7e3-42d0-a9df-e8f6ffdcf3a0.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9716655033/PRE_PURCHASE/image/0d8744d7-f7e3-42d0-a9df-e8f6ffdcf3a0.jpg.jpg",
+            "updated": true
+          }
+        ],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "adaptivecruisecontrol": {
+        "values": [
+          "No"
+        ],
+        "images": [
+          {
+            "loading": false,
+            "label": "5d7bca9a-9e4a-4b2f-88e5-92ca79a5e685.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9716655033/PRE_PURCHASE/image/5d7bca9a-9e4a-4b2f-88e5-92ca79a5e685.jpg.jpg",
+            "updated": true
+          }
+        ],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "adaptiveheadlights": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "airsuspension": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "autoparkassist": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "blindspotmonitor": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "chargingadapter": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "climatecontrolac": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "cruisecontrol": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "foglightfront": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "frontcamera": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "headsupdisplay": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "memoryseats": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "navigation": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "parkingsensorsfront": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "rearparkingsensor": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "rearseatentertainment": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "reversecamera": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "roofrails": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "runninglights": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "sidecamera": {
+        "values": [
+          "No"
+        ],
+        "images": [],
+        "tag": "GREEN",
+        "attachments": [],
+        "childFields": {},
+        "comments": null
+      },
+      "rooftype": {
+        "values": [
+          "Normal Sunroof"
+        ]
+      }
+    }
+  }
+}

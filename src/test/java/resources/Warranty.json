@@ -1,0 +1,56 @@
+{
+  "inspectionType": "PRE_PURCHASE",
+  "data": {
+    "action": "warrantyDetails",
+    "warrantyDetails": {
+      "warrantyValidityMileage": {
+        "values": [
+          "33333"
+        ]
+      },
+      "smcAvailable": {
+        "values": [
+          "Yes"
+        ]
+      },
+      "warrantyType": {
+        "values": [
+          "A"
+        ]
+      },
+      "lastServiceDate": {
+        "values": [
+          "2024-02-26"
+        ]
+      },
+      "serviceHistoryAvailable": {
+        "values": [
+          "Partial Service History - Agency"
+        ],
+        "images": [
+          {
+            "loading": false,
+            "label": "bf3dd255-709d-46f4-afe0-9f6eea2454be.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_747384738472/PRE_PURCHASE/image/bf3dd255-709d-46f4-afe0-9f6eea2454be.jpg.jpg",
+            "updated": true
+          }
+        ]
+      },
+      "warrantyValidityDate": {
+        "values": [
+          "2024-02-26"
+        ]
+      },
+      "smcValidityDate": {
+        "values": [
+          "2024-02-26"
+        ]
+      },
+      "accidentFree": {
+        "values": [
+          "No Accident"
+        ]
+      }
+    }
+  }
+}

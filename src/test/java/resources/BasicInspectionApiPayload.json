@@ -1,0 +1,235 @@
+{
+    "inspectionType": "PRE_PURCHASE",
+    "data": {
+        "action": "basicDetails",
+        "basicDetails": {
+            "make": {
+                "values": [
+                    "Nissan"
+                ]
+            },
+            "model": {
+                "images": [],
+                "values": [
+                    "370Z"
+                ]
+            },
+            "year": {
+                "images": [],
+                "values": [
+                    2021
+                ]
+            },
+            "variant": {
+                "images": [],
+                "values": [
+                    "Std"
+                ]
+            },
+            "category": {
+                "images": [],
+                "values": []
+            },
+            "bodyType": {
+                "values": [
+                    "Coupe"
+                ]
+            },
+            "engineSize": {
+                "values": [
+                    3.7
+                ]
+            },
+            "fuelType": {
+                "values": [
+                    "Petrol"
+                ]
+            },
+            "noOfCylinders": {
+                "values": [
+                    6
+                ]
+            },
+            "transmissionType": {
+                "values": [
+                    "Automatic"
+                ]
+            },
+            "odometerReading": {
+                "values": [
+                    "50000"
+                ],
+                "images": [
+                    {
+                        "label": "77df732c-97ce-40d0-a976-5ca2a29a4850.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/77df732c-97ce-40d0-a976-5ca2a29a4850.jpg.jpg",
+                        "updated": true
+                    }
+                ]
+            },
+            "numberOfDoors": {
+                "values": [
+                    "3"
+                ]
+            },
+            "batterychargingtime": {
+                "values": [
+                    "12"
+                ]
+            },
+            "emiratesid": {
+                "values": [
+                    "Yes"
+                ],
+                "images": [
+                    {
+                        "label": "ef3a069e-5753-496c-9a47-a1b82fdb4b82.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/ef3a069e-5753-496c-9a47-a1b82fdb4b82.jpg.jpg",
+                        "updated": true
+                    }
+                ]
+            },
+            "turbochargerSuperchargerAvailable": {
+                "values": [
+                    "No"
+                ]
+            },
+            "drivingrange": {
+                "values": [
+                    "12"
+                ]
+            },
+            "vin": {
+                "values": [
+                    "Qwertyuuioplkjhgfd"
+                ]
+            },
+            "inspectionmode": {
+                "values": [
+                    "Home"
+                ]
+            },
+            "specs": {
+                "values": [
+                    "GCC"
+                ]
+            },
+            "noOfKeys": {
+                "values": [
+                    "2"
+                ],
+                "images": [
+                    {
+                        "label": "12bf5432-a834-4b94-96d5-61199424ccd9.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/12bf5432-a834-4b94-96d5-61199424ccd9.jpg.jpg",
+                        "updated": true
+                    }
+                ]
+            },
+            "optionsType": {
+                "values": [
+                    "Basic"
+                ]
+            },
+            "carExteriorColor": {
+                "values": [
+                    "Black"
+                ],
+                "images": [
+                    {
+                        "label": "23a057e8-ae85-4239-9162-29582f506539.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/23a057e8-ae85-4239-9162-29582f506539.jpg.jpg",
+                        "updated": true
+                    }
+                ]
+            },
+            "noOfAirbags": {
+                "values": [
+                    "1"
+                ]
+            },
+            "numberOfSeats": {
+                "values": [
+                    "3"
+                ]
+            },
+            "nationality": {
+                "values": [
+                    "United Arab Emirates"
+                ]
+            },
+            "firstowner": {
+                "values": [
+                    "Yes"
+                ]
+            },
+            "carInteriorColor": {
+                "values": [
+                    "White"
+                ]
+            },
+            "topspeed": {
+                "values": [
+                    "120"
+                ]
+            },
+            "preparationcost": {
+                "values": [
+                    "1200"
+                ]
+            },
+            "allowauction": {
+                "values": [
+                    "No"
+                ]
+            },
+            "drive": {
+                "values": [
+                    "Front Wheel Drive"
+                ],
+                "images": [
+                    {
+                        "label": "5060ca4f-3b0d-43f2-a68e-c4368e6a9983.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/5060ca4f-3b0d-43f2-a68e-c4368e6a9983.jpg.jpg",
+                        "updated": true
+                    }
+                ]
+            },
+            "spotoffer": {
+                "values": [
+                    "Yes"
+                ]
+            },
+            "rtapassingreport": {
+                "values": [
+                    "Yes"
+                ]
+            },
+            "taxinvoice": {
+                "values": [
+                    "Yes"
+                ]
+            },
+            "loanstatus": {
+                "values": [
+                    "Not on loan"
+                ]
+            },
+            "typeoflead": {
+                "values": [
+                    "GS"
+                ]
+            },
+            "procurementqcrejectionreasonqconly": {
+                "values": [
+                    "Dealer Car"
+                ]
+            },
+            "registrationemirate": {
+                "values": [
+                    "Dubai"
+                ]
+            }
+        }
+    }
+}

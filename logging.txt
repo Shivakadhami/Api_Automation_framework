@@ -1,0 +1,5471 @@
+Request method:	POST
+Request URI:	https://stage-refurbishment-service.qac24svc.dev/inspection/9718000271
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJpcE0tVXI0NVlfNnBlTWJpeXNXeHVlY2RvVG5wbm13U3NJTWZaeWxDd3FzIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULmd3SlFvYWFvRFVoSkFmdDRHcUxjb0ptYkg4RU91T1ZHVzFOeEhadlhmSncub2FyMTdldGV2dVVKdGltOTQxZDciLCJpc3MiOiJodHRwczovL2NhcnMyNC5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNzM0MzI5MzI5LCJleHAiOjE3MzQ0MTU3MjksImNpZCI6IjBvYXJheXViZVdCbmt3UzFVMWQ2IiwidWlkIjoiMDB1NDZidXhqb1haSmFWbGkxZDciLCJzY3AiOlsib2ZmbGluZV9hY2Nlc3MiLCJwcm9maWxlIiwib3BlbmlkIl0sImF1dGhfdGltZSI6MTczNDA4MDk0NCwic3ViLW5hbWUiOiJ1YWUuY2pAY2FyczI0LmNvbSIsImxhc3ROYW1lIjoiUFJFX1BVUkNIQVNFIiwic3ViIjoidWFlLmNqQGNhcnMyNC5jb20iLCJjb3VudHJ5IjpbIkFFIl0sImZpcnN0TmFtZSI6IkNKIiwiVEVTVF9DUkVBVEVfTU9WRU1FTlQiOmZhbHNlLCJncm91cHMiOlsiRXZlcnlvbmUiLCJQUkVfUFVSQ0hBU0VfQ0oiXSwibG9jYXRpb25zIjpbIkRYQl9TQ19DMjRfSVJDIl0sInZlaGljbGVUeXBlIjpbIkNBUiJdfQ.T-boZkKTji1ij2dsSQk_PkpiqSKpA9M8L6nC4YmGePHJLZdGLQPfdp8wR8J2rPRWJaxXBnHME6CtJ_ZrUn5GjdKpgG6w89EFxaPkUiDGU2BVe3-Ue9-P-E3t8Vv-98YSYs9MUKyyf3ssWtbYG5NnLWzUNdFBM8qRZgfR-i7MAX9RrfJwuAQHnyhnswfkRu5jaAUCIav11NtO6IITYjiTM0VeSR10-h1JuIumw7K5568tmhQLe6qAnxfVN_72f7q0rLpBXrOEvNrozeQFw2-bHe8sLpbx-url8dgodtDbVYsM2m8-o-19YyEKR6wS-RENF9Gl3zY7vUeJcEBCnweqew
+				X_COUNTRY=AE
+				X_VEHICLE_TYPE=CAR
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": {
+        "action": "submitInspection"
+    },
+    "inspectionType": "PRE_PURCHASE"
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Dec 2024 16:46:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+x-envoy-upstream-service-time: 1520
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=P4gSdtOQORUpINNEGqAHffBgtflGW2UaRsu1UC..dq8-1734367609-1.0.1.1-h2nUqTs9vSMdUj0O78plzXfdOQdiG0LczkOJ_rB.j_WM9WydGBYSHFGwIIz2QTerqpOEiD4iYTuAojEzQD9fKQ; path=/; expires=Mon, 16-Dec-24 17:16:49 GMT; domain=.qac24svc.dev; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 8f3026d02bd05a05-DEL
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "634594440122443",
+    "createdBy": {
+        "uid": "uae.cj@cars24.com",
+        "authType": "USER"
+    },
+    "updatedBy": {
+        "uid": "uae.cj@cars24.com",
+        "authType": "USER"
+    },
+    "createdAt": "2024-12-16T16:46:37.348228Z",
+    "updatedAt": "2024-12-16T16:46:48.989008Z",
+    "surrogateKey": "AE_CAR_9718000271",
+    "appointmentId": "9718000271",
+    "vin": "Qwertyuuioplkjhgfd",
+    "vehicleType": "CAR",
+    "country": "AE",
+    "schemaVersion": "AE_CAR_PRE_PURCHASE_FULL245",
+    "make": "Nissan",
+    "model": "370Z",
+    "variant": "Std",
+    "year": "2021",
+    "data": {
+        "mmv": {
+            
+        },
+        "derivedStatus": "PRE_PURCHASE_FILLED",
+        "previousCheckpointKey": "Exterior_Dealer_Images_FrontLeftRightBack",
+        "additionalEstimatePDI": false,
+        "checkpoints": {
+            "4x4shifting": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "ClusterWarning": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "Exterior_Dealer_Images_FrontLeftRightBack": {
+                "choices": [
+                    {
+                        "choice": "First owner \nNo accidents\nAgency maintained \n",
+                        "info": null,
+                        "acceptable": false,
+                        "other": true,
+                        "tag": null,
+                        "diagnostic": false,
+                        "imperfectionType": "UN_ACCEPTABLE"
+                    }
+                ],
+                "noImperfectionChoices": [
+                    
+                ],
+                "refurbishmentChoices": [
+                    {
+                        "refurbishment": "B",
+                        "other": true,
+                        "tag": null
+                    }
+                ],
+                "images": [
+                    {
+                        "label": "IMG_20240301_160740.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160740.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830432Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160745.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160745.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830433Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160749.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160749.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830433Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160755.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160755.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830433Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160801.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160801.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830433Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160807.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160807.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830433Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160818.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160818.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830434Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160824.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160824.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830434Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_160941.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160941.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830434Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161058.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161058.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830434Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161108.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161108.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830434Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161115.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161115.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830435Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161121.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161121.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830435Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161130.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161130.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830435Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161139.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161139.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830435Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161146.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161146.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830435Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161152.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161152.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830436Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161157.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161157.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830436Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161208.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161208.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830436Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161210.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161210.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830436Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_161219.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161219.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830436Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_153107.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_153107.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830437Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_153115.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_153115.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830437Z",
+                        "updated": false
+                    },
+                    {
+                        "label": "IMG_20240301_153033.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_153033.jpg.jpg",
+                        "uploadedAt": "2024-03-01T12:21:07.830437Z",
+                        "updated": false
+                    }
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": false,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 5,
+                "updatedBy": {
+                    "uid": "uae.cj@cars24.com",
+                    "authType": "USER"
+                },
+                "updatedAt": "2024-12-16T16:46:43.4303Z",
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "UN_ACCEPTABLE"
+            },
+            "Interior_Front LHS Interior_Airbags_LHSAirbags": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No Imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "Interior_Front RHS Interior _Airbags_RHSAirbags": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No Imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "LhsDRL": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "Mechanical_Chassis_ChassisCondition_BumperframeCrashbox": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No Imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "Mechanical_Engine Bay_ACSystem_OperationCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No Imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "acCooling": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "axleNVH": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "bearingNVH": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "bonnetHoodCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "bootDoorCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "bootFloorCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "brakeOilLevelConditionInBottle": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "brakeOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "bulkHeadAssembly": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "catalyticConvertor": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "chassisCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "chassisExtensionDamaged": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "combinationSwitchOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "convertibleTopCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "coolant": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "cowlTopCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "dashboardUphostry": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "differentialDriveAxle": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "displayTouchResponse": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "driveBelt": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "engine": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "engineOil": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "engineUnderBody": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "firewallCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "frontLhsPowerManualWindowGlassOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "frontRhsPowerManualWindowGlassOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "frontWindshield": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "gearShift": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "grillCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "headLightSupportCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "hornOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "idleEngineNVH": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "keyRemoteWorking": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsApronCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsFenderCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsFrontDoorPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsFrontTyreCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsHeadLamp": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsHeadlinercondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsPillaraCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsPillarcCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsQuarterPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsRearAxleBoot": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsRearDoorPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsRearRoofAcWindDirection": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsRearSeatLcd": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsRearTyreCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsRunningBoardCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "lhsTailLamp": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "memorySeats": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "musicSystemOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "odometer": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "parkingBrakeOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "powerSeatOperation": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "powerSteeringOilLevelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "radiatorDamaged": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "radiatorHoses": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rearBumperCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rearWindshield": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "reverseCamera": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsApronCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsDRL": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsFenderCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsFrontAlloyRim": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsFrontAxleBoot": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsFrontDoorPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsFrontTyreCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsHeadLamp": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsInteriorDashboardInstrumentsPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsPillaraCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsPillarabCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsPillarcbCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsQuarterPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsRearDoorPanelCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsRearSeatLcd": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsRearTyreCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsRunningBoardCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "rhsTailLamp": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "roofCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "spareTyreCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "steeringWheel": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "sunroofGlassCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "suspensionNVH": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "transferCaseCondition": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "turbochargerSuperchargerWorking": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "vinPlate": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "warningSignalWorking": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            },
+            "wheelAlignment": {
+                "choices": [
+                    
+                ],
+                "noImperfectionChoices": [
+                    "OK / No imperfection"
+                ],
+                "refurbishmentChoices": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "videos": [
+                    
+                ],
+                "purchaseConditions": [
+                    
+                ],
+                "additionalInfo": [
+                    
+                ],
+                "ok": true,
+                "prepopulated": false,
+                "additional": false,
+                "skipped": false,
+                "revision": 2,
+                "refurbSegment": "IN_HOUSE",
+                "maxImperfectionType": "NO_IMPERFECTION"
+            }
+        },
+        "diagnosticEstimates": {
+            
+        },
+        "diagnosticQualityChecks": {
+            
+        },
+        "assessmentQualityChecks": {
+            
+        },
+        "estimates": {
+            
+        },
+        "qualityChecks": {
+            "4x4shifting": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "ClusterWarning": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "Exterior_Dealer_Images_FrontLeftRightBack": {
+                "status": "APPROVED",
+                "reason": "OK",
+                "tag": "NONE",
+                "images": [
+                    
+                ],
+                "revision": 5,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "Interior_Front LHS Interior_Airbags_LHSAirbags": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "Interior_Front RHS Interior _Airbags_RHSAirbags": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "LhsDRL": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "Mechanical_Chassis_ChassisCondition_BumperframeCrashbox": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "Mechanical_Engine Bay_ACSystem_OperationCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "acCooling": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "axleNVH": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "bearingNVH": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "bonnetHoodCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "bootDoorCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "bootFloorCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "brakeOilLevelConditionInBottle": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "brakeOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "bulkHeadAssembly": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "catalyticConvertor": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "chassisCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "chassisExtensionDamaged": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "combinationSwitchOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "convertibleTopCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "coolant": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "cowlTopCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "dashboardUphostry": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "differentialDriveAxle": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "displayTouchResponse": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "driveBelt": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "engine": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "engineOil": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "engineUnderBody": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "firewallCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "frontLhsPowerManualWindowGlassOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "frontRhsPowerManualWindowGlassOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "frontWindshield": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "gearShift": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "grillCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "headLightSupportCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "hornOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "idleEngineNVH": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "keyRemoteWorking": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsApronCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsFenderCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsFrontDoorPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsFrontTyreCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsHeadLamp": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsHeadlinercondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsPillaraCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsPillarcCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsQuarterPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsRearAxleBoot": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsRearDoorPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsRearRoofAcWindDirection": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsRearSeatLcd": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsRearTyreCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsRunningBoardCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "lhsTailLamp": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "memorySeats": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "musicSystemOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "odometer": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "parkingBrakeOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "powerSeatOperation": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "powerSteeringOilLevelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "radiatorDamaged": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "radiatorHoses": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rearBumperCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rearWindshield": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "reverseCamera": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsApronCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsDRL": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsFenderCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsFrontAlloyRim": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsFrontAxleBoot": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsFrontDoorPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsFrontTyreCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsHeadLamp": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsInteriorDashboardInstrumentsPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsPillaraCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsPillarabCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsPillarcbCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsQuarterPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsRearDoorPanelCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsRearSeatLcd": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsRearTyreCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsRunningBoardCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "rhsTailLamp": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "roofCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "spareTyreCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "steeringWheel": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "sunroofGlassCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "suspensionNVH": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "transferCaseCondition": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "turbochargerSuperchargerWorking": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "vinPlate": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "warningSignalWorking": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            },
+            "wheelAlignment": {
+                "status": "NO_ACTION",
+                "reason": "OK",
+                "tag": "GREEN",
+                "images": [
+                    
+                ],
+                "revision": 2,
+                "invalidated": false,
+                "updateAllowed": false,
+                "assessmentDiagnosticsStatus": "DGN_EMPTY"
+            }
+        },
+        "submittedSuperCategories": {
+            
+        },
+        "superCategoryStatusHolder": {
+            "Mechanical": {
+                "superCategoryStatus": "SUBMITTED",
+                "startedBy": null,
+                "startedAt": null,
+                "updatedBy": {
+                    "uid": "uae.cj@cars24.com",
+                    "authType": "USER"
+                },
+                "updatedAt": "2024-12-16T16:46:48.989247Z"
+            },
+            "Test Drive": {
+                "superCategoryStatus": "SUBMITTED",
+                "startedBy": null,
+                "startedAt": null,
+                "updatedBy": {
+                    "uid": "uae.cj@cars24.com",
+                    "authType": "USER"
+                },
+                "updatedAt": "2024-12-16T16:46:48.989271Z"
+            },
+            "Exterior": {
+                "superCategoryStatus": "SUBMITTED",
+                "startedBy": null,
+                "startedAt": null,
+                "updatedBy": {
+                    "uid": "uae.cj@cars24.com",
+                    "authType": "USER"
+                },
+                "updatedAt": "2024-12-16T16:46:48.989266Z"
+            },
+            "Test Driver": {
+                "superCategoryStatus": "SUBMITTED",
+                "startedBy": null,
+                "startedAt": null,
+                "updatedBy": {
+                    "uid": "uae.cj@cars24.com",
+                    "authType": "USER"
+                },
+                "updatedAt": "2024-12-16T16:46:48.989237Z"
+            },
+            "Interior": {
+                "superCategoryStatus": "SUBMITTED",
+                "startedBy": null,
+                "startedAt": null,
+                "updatedBy": {
+                    "uid": "uae.cj@cars24.com",
+                    "authType": "USER"
+                },
+                "updatedAt": "2024-12-16T16:46:48.989255Z"
+            }
+        },
+        "basicDetails": {
+            "allowauction": {
+                "values": [
+                    "No"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "batterychargingtime": {
+                "values": [
+                    "12"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "bodyType": {
+                "values": [
+                    "Coupe"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "carExteriorColor": {
+                "values": [
+                    "Black"
+                ],
+                "images": [
+                    {
+                        "label": "23a057e8-ae85-4239-9162-29582f506539.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/23a057e8-ae85-4239-9162-29582f506539.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "carInteriorColor": {
+                "values": [
+                    "White"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "category": {
+                "values": [
+                    
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "drive": {
+                "values": [
+                    "Front Wheel Drive"
+                ],
+                "images": [
+                    {
+                        "label": "5060ca4f-3b0d-43f2-a68e-c4368e6a9983.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/5060ca4f-3b0d-43f2-a68e-c4368e6a9983.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "drivingrange": {
+                "values": [
+                    "12"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "emiratesid": {
+                "values": [
+                    "Yes"
+                ],
+                "images": [
+                    {
+                        "label": "ef3a069e-5753-496c-9a47-a1b82fdb4b82.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/ef3a069e-5753-496c-9a47-a1b82fdb4b82.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "engineSize": {
+                "values": [
+                    "3.7"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "firstowner": {
+                "values": [
+                    "Yes"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "fuelType": {
+                "values": [
+                    "Petrol"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "inspectionmode": {
+                "values": [
+                    "Home"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "loanstatus": {
+                "values": [
+                    "Not on loan"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "make": {
+                "values": [
+                    "Nissan"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "model": {
+                "values": [
+                    "370Z"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "nationality": {
+                "values": [
+                    "United Arab Emirates"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "noOfAirbags": {
+                "values": [
+                    "1"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "noOfCylinders": {
+                "values": [
+                    "6"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "noOfKeys": {
+                "values": [
+                    "2"
+                ],
+                "images": [
+                    {
+                        "label": "12bf5432-a834-4b94-96d5-61199424ccd9.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/12bf5432-a834-4b94-96d5-61199424ccd9.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "numberOfDoors": {
+                "values": [
+                    "3"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "numberOfSeats": {
+                "values": [
+                    "3"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "odometerReading": {
+                "values": [
+                    "50000"
+                ],
+                "images": [
+                    {
+                        "label": "77df732c-97ce-40d0-a976-5ca2a29a4850.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9718000262/PRE_PURCHASE/image/77df732c-97ce-40d0-a976-5ca2a29a4850.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "optionsType": {
+                "values": [
+                    "Basic"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "preparationcost": {
+                "values": [
+                    "1200"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "procurementqcrejectionreasonqconly": {
+                "values": [
+                    "Dealer Car"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "registrationemirate": {
+                "values": [
+                    "Dubai"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "rtapassingreport": {
+                "values": [
+                    "Yes"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "specs": {
+                "values": [
+                    "GCC"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "spotoffer": {
+                "values": [
+                    "Yes"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "taxinvoice": {
+                "values": [
+                    "Yes"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "topspeed": {
+                "values": [
+                    "120"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "transmissionType": {
+                "values": [
+                    "Automatic"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "turbochargerSuperchargerAvailable": {
+                "values": [
+                    "No"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "typeoflead": {
+                "values": [
+                    "GS"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "variant": {
+                "values": [
+                    "Std"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "vin": {
+                "values": [
+                    "Qwertyuuioplkjhgfd"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "year": {
+                "values": [
+                    "2021"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            }
+        },
+        "looseItems": {
+            "floormats": {
+                "values": [
+                    "Available"
+                ],
+                "images": [
+                    {
+                        "label": "d6261490-e489-4c91-9d0f-f3bed24ca177.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9716617872/PRE_PURCHASE/image/d6261490-e489-4c91-9d0f-f3bed24ca177.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "servicebooklet": {
+                "values": [
+                    "Available"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "servicecontract": {
+                "values": [
+                    "Available"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            }
+        },
+        "warrantyDetails": {
+            "accidentFree": {
+                "values": [
+                    "No Accident"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "lastServiceDate": {
+                "values": [
+                    "2024-02-26"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "serviceHistoryAvailable": {
+                "values": [
+                    "Partial Service History - Agency"
+                ],
+                "images": [
+                    {
+                        "label": "bf3dd255-709d-46f4-afe0-9f6eea2454be.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_747384738472/PRE_PURCHASE/image/bf3dd255-709d-46f4-afe0-9f6eea2454be.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "smcAvailable": {
+                "values": [
+                    "Yes"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "smcValidityDate": {
+                "values": [
+                    "2024-02-26"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "warrantyType": {
+                "values": [
+                    "A"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "warrantyValidityDate": {
+                "values": [
+                    "2024-02-26"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "warrantyValidityMileage": {
+                "values": [
+                    "33333"
+                ],
+                "images": null,
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            }
+        },
+        "sfCheckpointDetails": {
+            "360degreecamera": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    {
+                        "label": "0d8744d7-f7e3-42d0-a9df-e8f6ffdcf3a0.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9716655033/PRE_PURCHASE/image/0d8744d7-f7e3-42d0-a9df-e8f6ffdcf3a0.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "adaptivecruisecontrol": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    {
+                        "label": "5d7bca9a-9e4a-4b2f-88e5-92ca79a5e685.jpg",
+                        "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/stage/inspection/AE_CAR_9716655033/PRE_PURCHASE/image/5d7bca9a-9e4a-4b2f-88e5-92ca79a5e685.jpg.jpg",
+                        "updated": false
+                    }
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "adaptiveheadlights": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "airsuspension": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "autoparkassist": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "blindspotmonitor": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "chargingadapter": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "climatecontrolac": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "cruisecontrol": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "foglightfront": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "frontcamera": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "headsupdisplay": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "memoryseats": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "navigation": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "parkingsensorsfront": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "rearparkingsensor": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "rearseatentertainment": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "reversecamera": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "roofrails": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "rooftype": {
+                "values": [
+                    "Normal Sunroof"
+                ],
+                "images": null,
+                "tag": null,
+                "attachments": null,
+                "childFields": null,
+                "comments": null
+            },
+            "runninglights": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            },
+            "sidecamera": {
+                "values": [
+                    "No"
+                ],
+                "images": [
+                    
+                ],
+                "tag": "GREEN",
+                "attachments": [
+                    
+                ],
+                "childFields": {
+                    
+                },
+                "comments": null
+            }
+        },
+        "attachmentDetails": {
+            
+        },
+        "checklistDetails": {
+            
+        },
+        "specsFeaturesDetails": {
+            
+        },
+        "submittedActions": [
+            "basicDetails"
+        ]
+    },
+    "version": 2,
+    "archived": "0",
+    "inspectionStatus": "ESTIMATED",
+    "inspectionType": "PRE_PURCHASE",
+    "inspectionSubType": "FULL",
+    "inspectedBy": {
+        "uid": "uae.cj@cars24.com",
+        "authType": "USER"
+    },
+    "inspectedAt": "2024-12-16T16:46:47.764668Z",
+    "invalidated": false,
+    "skipEstimates": false,
+    "skipInspection": false,
+    "stage": 0,
+    "assigned": false,
+    "qualityRejected": false,
+    "assessmentApproved": false,
+    "diagnosticCompleted": false,
+    "negoCount": 0,
+    "attributes": {
+        "INSPECTION_NUMBER": 1,
+        "INSPECTION_TAG": "FULL",
+        "REFURB_TYPE": "NONE"
+    },
+    "automationEnabledSchema": false,
+    "indirectCost": 0.0
+}

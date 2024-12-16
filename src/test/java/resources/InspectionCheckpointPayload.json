@@ -1,0 +1,190 @@
+{
+  "inspectionType": "PRE_PURCHASE",
+  "data": {
+    "action": "checkpoints",
+    "checkpoints": {
+      "Exterior_Dealer_Images_FrontLeftRightBack": {
+        "choices": [
+          {
+            "choice": "First owner \nNo accidents\nAgency maintained \n",
+            "info": null,
+            "acceptable": false,
+            "other": true,
+            "tag": null,
+            "diagnostic": false,
+            "imperfectionType": "UN_ACCEPTABLE"
+          }
+        ],
+        "noImperfectionChoices": [],
+        "refurbishmentChoices": [
+          {
+            "refurbishment": "B",
+            "other": true,
+            "tag": null
+          }
+        ],
+        "images": [
+          {
+            "label": "IMG_20240301_160740.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160740.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830432Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160745.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160745.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830433Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160749.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160749.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830433Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160755.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160755.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830433Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160801.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160801.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830433Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160807.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160807.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830433Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160818.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160818.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830434Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160824.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160824.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830434Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_160941.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_160941.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830434Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161058.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161058.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830434Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161108.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161108.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830434Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161115.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161115.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830435Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161121.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161121.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830435Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161130.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161130.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830435Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161139.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161139.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830435Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161146.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161146.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830435Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161152.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161152.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830436Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161157.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161157.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830436Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161208.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161208.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830436Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161210.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161210.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830436Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_161219.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_161219.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830436Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_153107.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_153107.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830437Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_153115.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_153115.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830437Z",
+            "updated": false
+          },
+          {
+            "label": "IMG_20240301_153033.jpg",
+            "path": "https://c24-inspections.s3.ap-south-1.amazonaws.com/prod/inspection/AE_CAR_9716270088/PRE_PURCHASE/Exterior_Dealer_Images_FrontLeftRightBack/IMG_20240301_153033.jpg.jpg",
+            "uploadedAt": "2024-03-01T12:21:07.830437Z",
+            "updated": false
+          }
+        ],
+        "videos": [],
+        "purchaseConditions": [],
+        "additionalInfo": [],
+        "ok": false,
+        "prepopulated": false,
+        "additional": false,
+        "skipped": false,
+        "revision": 1,
+        "updatedBy": {
+          "uid": "roshan.mohammed@cars24.com",
+          "authType": "USER"
+        },
+        "updatedAt": "2024-03-01T12:21:07.830445Z",
+        "refurbSegment": "IN_HOUSE",
+        "maxImperfectionType": "UN_ACCEPTABLE"
+      }
+    }
+  }
+}

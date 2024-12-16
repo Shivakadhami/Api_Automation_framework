@@ -1,0 +1,6 @@
+{
+  "data": {
+    "action": "submitInspection"
+  },
+  "inspectionType": "PRE_PURCHASE"
+}
